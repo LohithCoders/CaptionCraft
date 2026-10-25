@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { createRoot } from 'react-dom/client'
-import { ArrowDown, ArrowRight, ArrowUpRight, Check, CheckCheck, ChevronDown, Clipboard, Copy, Feather, Heart, Instagram, Linkedin, Menu, MessageCircle, RefreshCw, Send, Sparkles, WandSparkles, X as XIcon, Zap } from 'lucide-react'
+import { ArrowDown, ArrowRight, ArrowUpRight, BriefcaseBusiness, Camera, Check, CheckCheck, ChevronDown, Clipboard, Copy, Feather, Heart, Menu, MessageCircle, RefreshCw, Send, Sparkles, WandSparkles, X as XIcon, Zap } from 'lucide-react'
 import './style.css'
 
 const demoCaptions = [
@@ -23,7 +23,7 @@ const hashtags = {
   LinkedIn: ['#Community', '#Teamwork', '#GrowthMindset'], X: ['#GoodTimes', '#TheLittleThings', '#LifeUpdate'],
 }
 const platforms = [
-  { name: 'Instagram', Icon: Instagram }, { name: 'Facebook', Icon: MessageCircle }, { name: 'LinkedIn', Icon: Linkedin }, { name: 'X', Icon: XIcon },
+  { name: 'Instagram', Icon: Camera }, { name: 'Facebook', Icon: MessageCircle }, { name: 'LinkedIn', Icon: BriefcaseBusiness }, { name: 'X', Icon: XIcon },
 ]
 const tones = ['Funny', 'Professional', 'Casual', 'Motivational', 'Inspirational', 'Witty']
 
@@ -89,7 +89,7 @@ function App() {
         <div className="hero-social-proof"><div className="proof-avatars"><span>J</span><span>A</span><span>M</span><span>S</span></div><div><strong>Your next post, sorted.</strong><small>Made for the moments worth sharing.</small></div><span className="proof-spark">✳</span></div>
       </div>
       <div className="hero-visual"><div className="visual-glow" /><div className="floating-pill pill-top"><span className="live-dot" /> Your next caption, coming up</div><div className="preview-card">
-          <div className="preview-card-top"><span className="preview-label"><span className="mini-icon"><Instagram size={13} /></span> INSTAGRAM CAPTION</span><span className="preview-more">···</span></div>
+          <div className="preview-card-top"><span className="preview-label"><span className="mini-icon"><Camera size={13} /></span> INSTAGRAM CAPTION</span><span className="preview-more">···</span></div>
           <div className="preview-post"><div className="post-image"><span className="post-sun" /><div className="post-hills" /><span className="post-figure">✦</span><span className="post-confetti confetti-one">✦</span><span className="post-confetti confetti-two">✳</span><span className="post-confetti confetti-three">•</span><div className="post-image-label">good times, great people</div></div><div className="post-copy"><div className="post-copy-title"><span className="tiny-avatar">A</span><strong>alexcreates</strong><span className="follow-text">Follow</span></div><p>More living, less scrolling. This is your reminder to <span className="highlight-text">make today count</span> ✨</p><span className="post-tags">#LifeLately&nbsp; #GoodVibes</span><div className="post-stats"><span><Heart size={15} />&nbsp; 248</span><MessageCircle size={14} /><Send size={14} /><span className="post-save">⌑</span></div></div></div>
           <div className="preview-generated"><span className="generated-spark"><Sparkles size={13} /></span><p><small>YOUR IDEA, ELEVATED</small><strong>A little help with your next post.</strong></p><button onClick={jumpToGenerator} aria-label="Generate a caption"><ArrowRight size={17} /></button></div>
         </div><div className="floating-pill pill-bottom"><span className="pill-spark"><Sparkles size={13} /></span> It just gets you.</div><div className="visual-orbit orbit-one" /><div className="visual-orbit orbit-two" /></div></section>
