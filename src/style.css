@@ -95,3 +95,44 @@
   .workflow-steps span{font-size:8px}
   .footer>span:nth-child(2){font-size:10px}
 }
+
+/* Make supporting copy and compact controls easier to read as well. */
+.panel-heading p,.results-heading p{font-size:14px}
+.field-label{font-size:15px}
+.field-hint,.char-count,.error-message{font-size:13px}
+.step-label,.step-label span{font-size:14px}
+.platform-option,.tone-chip,.select-wrap select,.toggle-row{font-size:14px}
+.selection-hint{font-size:11px}
+.demo-note{font-size:12px}
+.caption-number,.caption-platform{font-size:11px}
+.caption-tags span,.caption-actions button,.copy-all-button{font-size:12px}
+.caption-text{font-size:15px}
+.empty-state h3{font-size:17px}
+.empty-state>p{font-size:14px}
+.empty-cta,.generate-again{font-size:13px}
+.generate-again span{font-size:11px}
+.workspace-footnote{font-size:11px}
+.section-label,.concept-index{font-size:11px}
+.concept-stamp{font-size:9px}
+.concept-tags span{font-size:11px}
+.workflow-steps span{font-size:10px}
+.architecture-list strong{font-size:11px}
+.architecture-list small,.simulation-note p{font-size:11px}
+.final-cta>p{font-size:11px}
+.footer>span:last-child{font-size:10px}
+
+@media(max-width:620px){
+  .panel-heading p,.results-heading p{font-size:13px}
+  .field-label{font-size:14px}
+  .field-hint,.char-count,.error-message{font-size:12px}
+  .platform-option,.tone-chip,.select-wrap select,.toggle-row{font-size:12px}
+  .step-label,.step-label span{font-size:13px}
+  .demo-note{font-size:11px}
+  .caption-number,.caption-platform{font-size:10px}
+  .caption-tags span,.caption-actions button,.copy-all-button{font-size:11px}
+  .caption-text{font-size:14px}
+  .empty-state h3{font-size:16px}
+  .empty-state>p{font-size:13px}
+  .workspace-footnote{font-size:10px}
+  .workflow-steps span{font-size:9px}
+}
